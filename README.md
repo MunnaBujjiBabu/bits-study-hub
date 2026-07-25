@@ -5,9 +5,11 @@ of your course study materials. The actual files (PPTs, recordings, notes,
 assignments) live in **Google Drive** — this site just organizes and links to
 them.
 
+**🌐 Live site: <https://munnabujjibabu.github.io/bits-study-hub/>**
+
 - **No backend, no build step** — plain HTML/CSS/JS.
-- **All content lives in one file:** [`data.json`](data.json). Add a row, refresh, done.
-- **Deploys anywhere static** — GitHub Pages, Netlify, or any web server.
+- **All content lives in one file:** [`data.json`](data.json). Add a row, push, done.
+- **Deploys anywhere static** — currently on GitHub Pages (auto-redeploys on push).
 
 ---
 
