@@ -1,0 +1,62 @@
+{
+  "materials": [
+    {
+      "subject": "Software Architecture",
+      "semester": "Sem 1",
+      "type": "PPT",
+      "driveLink": "https://drive.google.com/drive/folders/1mlwXUsBkd8IA8kjgcpgCGHfx4pi8bYNB?usp=sharing",
+      "dateAdded": "2026-07-26"
+    },
+    {
+      "subject": "Software Product Management",
+      "semester": "Sem 1",
+      "type": "PPT",
+      "driveLink": "https://drive.google.com/drive/folders/1zITnlKY5cOA3xmjTshnAYh1D7C8YMjzU?usp=sharing",
+      "dateAdded": "2026-07-26"
+    },
+    {
+      "subject": "Cloud Computing",
+      "semester": "Sem 1",
+      "type": "PPT",
+      "driveLink": "https://drive.google.com/drive/folders/1yNbhmvbwJf_FR_0_zsKW_GigVla-i2zd?usp=sharing",
+      "dateAdded": "2026-07-26"
+    },
+    {
+      "subject": "Agile Software Process",
+      "semester": "Sem 1",
+      "type": "PPT",
+      "driveLink": "https://drive.google.com/drive/folders/1EOQhxp_3mlp-99uy4GpWqz9Y-BXJoz3-?usp=sharing",
+      "dateAdded": "2026-07-26"
+    },
+    {
+      "subject": "Data Structures & Algorithms",
+      "semester": "Sem 2",
+      "type": "PPT",
+      "driveLink": "https://drive.google.com/drive/folders/1SbN-v2YLJavSgZuiPiICTJlnTFHE8s2A?usp=sharing",
+      "dateAdded": "2026-07-26"
+    },
+    {
+      "subject": "Full Stack Application Development",
+      "semester": "Sem 2",
+      "type": "PPT",
+      "driveLink": "https://drive.google.com/drive/folders/1941HQGeiZcc6WmAxW34QiAfeNz2P2kmQ?usp=sharing",
+      "dateAdded": "2026-07-26"
+    },
+    {
+      "subject": "API Based Products",
+      "semester": "Sem 2",
+      "type": "PPT",
+      "driveLink": "https://drive.google.com/drive/folders/1t0txXisF0_WGyxForCP3aWqNyh1pN4pg?usp=sharing",
+      "dateAdded": "2026-07-26"
+    },
+    {
+      "subject": "Software Testing",
+      "semester": "Sem 2",
+      "type": "PPT",
+      "driveLink": "https://drive.google.com/drive/folders/1fv3YcPo6YOeL_tw8v-JcDSqmvjySjTFv?usp=sharing",
+      "dateAdded": "2026-07-26"
+    }    
+  ]
+}
+
+

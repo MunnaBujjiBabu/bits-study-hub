@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Consolidated study material hub — M.Tech, BITS Pilani." />
+  <title>Study Hub · M.Tech</title>
+  <!-- Set the theme before first paint to avoid a light/dark flash on load. -->
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem("theme");
+        // Default to dark; honour a saved choice if one exists.
+        document.documentElement.setAttribute("data-theme", saved || "dark");
+      } catch (e) {
+        document.documentElement.setAttribute("data-theme", "dark");
+      }
+    })();
+  </script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <div class="brand">
+        <h1>Study Hub</h1>
+        <p class="brand-sub">M.Tech · BITS Pilani</p>
+      </div>
+      <button id="theme-toggle" class="theme-toggle" type="button">
+        <span class="theme-toggle-icon" aria-hidden="true"></span>
+        <span class="theme-toggle-label">Theme</span>
+      </button>
+    </div>
+    <div class="wrap">
+      <p class="last-updated">Last updated: <span id="last-updated">—</span></p>
+    </div>
+  </header>
+
+  <section class="controls" aria-label="Search and filters">
+    <div class="wrap controls-inner">
+      <div class="search-field">
+        <label class="visually-hidden" for="search">Search materials</label>
+        <input
+          id="search"
+          type="search"
+          class="search-input"
+          placeholder="Search by subject or topic…"
+          autocomplete="off"
+        />
+      </div>
+      <div class="filter-field">
+        <label class="visually-hidden" for="filter-semester">Filter by semester</label>
+        <select id="filter-semester" class="filter-select">
+          <option value="">All Semesters</option>
+        </select>
+      </div>
+      <div class="filter-field">
+        <label class="visually-hidden" for="filter-type">Filter by type</label>
+        <select id="filter-type" class="filter-select">
+          <option value="">All Types</option>
+        </select>
+      </div>
+      <button id="clear-filters" class="clear-btn" type="button">Clear</button>
+    </div>
+    <div class="wrap">
+      <p id="results-meta" class="results-meta" aria-live="polite"></p>
+    </div>
+  </section>
+
+  <main id="content" class="wrap content">
+    <!-- Subject cards are rendered here by app.js -->
+    <p class="state-msg">Loading study materials…</p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Files are hosted on Google Drive · Links open in a new tab.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
